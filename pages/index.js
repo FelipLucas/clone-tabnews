@@ -1,5 +1,5 @@
 import { RESPONSE_LIMIT_DEFAULT } from "next/dist/server/api-utils/index.js";
-import database from "../infra/database";
+import database from "../../../../infra/database.js";
  
 async function status(request, response){
   const result = await database.query("SELECT 1 + 1");
