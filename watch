@@ -5,8 +5,8 @@
 No tests found, exiting with code 1
 Run with `--passWithNoTests` to exit with code 0
 In /workspaces/clone-tabnews
-  33 files checked.
+  40 files checked.
   testMatch: **/__tests__/**/*.[jt]s?(x), **/?(*.)+(spec|test).[tj]s?(x) - 0 matches
-  testPathIgnorePatterns: /node_modules/ - 33 matches
+  testPathIgnorePatterns: /node_modules/ - 40 matches
   testRegex:  - 0 matches
 Pattern:  - 0 matches
