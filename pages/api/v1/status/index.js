@@ -16,7 +16,7 @@ async function status(request, response){
   });
 
   const databaseOpenedConnectionsValue = 
-  databaseOpenedConnectionsResult.rows[0].count;
+  databaseOpenedConnectionsResult.rows[0].count;  
 
   response.status(200).json({
     uptaded_at: uptadedAt,
